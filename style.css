@@ -10,14 +10,26 @@
 
 
 
+
 /* parts
------------------------------------------------------------------*/
+---------------------------------------------*/
 
 .aoi-design-h1-01 {
     width: 50%;
     font-family: 'Courier New',sans-serif;
     border-bottom: 3px solid #817e7e;
 }
+/* my portfolio
+------------------------------------------- */
+.aoi-design-h1-02{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    background: rgba(209, 208, 208, 0.555);
+    font-size: 3rem;
+    padding: 1rem;
+}
+
 .aoi-design-h2-01::first-letter{
     color: #6fdaad;
 }
@@ -84,6 +96,15 @@ h6 {
     height: auto;
     border-radius: 50%;
 }
+/* main-visual img
+--------------------------------------------*/
+.aoi-design-i-04{
+    width: 70%;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 30%;
+}
+
 .aoi-design-a-01 {
     text-decoration: none;
 }
@@ -275,4 +296,13 @@ h6 {
 }
 .aoi-design-button-03:hover span{
     padding: 0.1em 0;
+}
+
+.aoi-design-hr-01{
+    background-color: #fff;
+	border-top: 2px dotted #8c8b8b;
+}
+.aoi-design-hr-02{
+    background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
 }
