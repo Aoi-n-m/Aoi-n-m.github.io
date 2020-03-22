@@ -306,3 +306,79 @@ h6 {
     background-color: #fff;
 	border-top: 2px dashed #8c8b8b;
 }
+
+.aoi-design-w-01{
+    width: 500px;
+    height: 300px;
+    background: grey;
+}
+.aoi-design-w-01 p{
+    width: 200px;
+    height: 200px;
+    background: blue;
+}
+.aoi-design-w-02{
+    width: 500px;
+    height: 300px;
+    background: grey;
+}
+.aoi-design-w-02 p{
+    width: 700px;
+    height: 200px;
+    background: blue;
+}
+.aoi-design-w-03{
+    width: 500px;
+    height: 300px;
+    background: grey;
+}
+.aoi-design-w-03 p{
+    width: 50%;
+    height: 100px;
+    background: blue;
+}
+/* min-width */
+.aoi-design-w-04 {
+    /*親要素大きめ*/
+    width: 200px;
+    background:skyblue;
+}
+.aoi-design-w-05 {
+    /*親要素小さめ*/
+    width: 100px;
+    background:skyblue;
+}
+.nomin {
+    background:gray;
+    width: 50%;
+    /*最小幅なし*/
+}
+.min {
+    background:orange;
+    width: 50%;
+    /*最小幅あり*/
+    min-width: 100px;
+}
+
+/* min-width */
+.aoi-design-w-06 {
+    /*親要素小さめ*/
+    width: 100px;
+    background:skyblue;
+}
+.aoi-design-w-07 {
+    /*親要素大きめ*/
+    width: 200px;
+    background:skyblue
+}
+.nomin {
+    /*最大幅なし*/
+    background:gray;
+    width: 50%;
+}
+.min {
+    background:orange;
+    width: 80%;
+    /*最大幅あり*/
+    max-width: 100px;
+}
