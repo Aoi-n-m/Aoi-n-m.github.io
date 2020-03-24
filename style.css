@@ -22,6 +22,7 @@
 /* my portfolio
 ------------------------------------------- */
 .aoi-design-h1-02{
+    font-family: 'Courier New',sans-serif;
     position: absolute;
     top: 30%;
     left: 20%;
@@ -219,12 +220,15 @@ h6 {
 .aoi-design-header-02 li{
     list-style: none;
 }
+/* footer
+--------------------------------------- */
 .aoi-design-footer-01{
-    background-color: #6bb96b;
+    background-color: #a3b4d4;
     width: 100%;
-    height: 100%;
+    height: 100px;
     color: white;
     text-align: center;
+    padding-top: 10px;
 }
 .aoi-design-footer-01 li{
     display: inline;
