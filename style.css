@@ -6,13 +6,25 @@
     height: 100vh;
 }
 
+h2{
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+
+
 .skill-content{
+    /* background: yellow; */
     width: 960px;
     margin: 0 auto;
 }
 .skill-content ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
 }
 .skill-content h2{
@@ -189,11 +201,11 @@ h6 {
     background-color: rgb(238, 222, 207);
 }
 /* about 見出し（h2） */
-.aoi-design-bg-01 h2{
+/* .aoi-design-bg-01 h2{
     text-align: center;
     margin-bottom: 50px;
     padding-top: 50px;
-}
+} */
 
 /* ---------------------------------------- */
 
@@ -421,4 +433,14 @@ h6 {
     width: 80%;
     /*最大幅あり*/
     max-width: 100px;
+}
+
+
+
+.aoi-design-grid-01{
+    /* background: blue; */
+    width: 960px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
