@@ -13,10 +13,22 @@ h2{
     margin-bottom: 50px;
     padding-top: 50px;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+section{
+    margin: 100px 0;
+}
 
 
 
 
+
+
+
+/* skill
+----------------------------------------------------------- */
 .skill-content{
     /* background: yellow; */
     width: 960px;
@@ -24,13 +36,13 @@ h2{
 }
 .skill-content ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
 }
 .skill-content h2{
     text-align: center;
 }
-
+/* -------------------------------------------------------- */
 /* parts */
 
 .aoi-design-h1-01 {
@@ -444,3 +456,79 @@ h6 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+
+.aoi-design-fb-01{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 960px;
+    margin: 0 auto;
+}
+.content-box{
+    width: calc(100% / 3);
+    /* background-color: #f0f0f0; */
+    margin-bottom: 30px;
+}
+.content-box img{
+    display: block;
+    padding-left: 50px;
+}
+.content-box p{
+    padding-left: 50px;
+}
+
+
+
+
+
+/* contact
+----------------------------------------------------------------------- */
+.aoi-design-form-01{
+    /* background: yellow; */
+    width: 480px;
+    margin: 0 auto;
+    text-align: center;
+}
+.aoi-design-inp-08,
+.aoi-design-inp-09,
+.aoi-design-inp-10{
+    margin-bottom: 15px;
+}
+.aoi-design-form-01 label{
+    float: left;
+    background: #e1e1e2;
+    border-radius: 5px;
+    margin-right: 20px;
+    width: 135px;
+}
+.aoi-design-inp-08 input,
+.aoi-design-inp-09 input,
+.aoi-design-inp-10 input{
+    width:300px;
+}
+.aoi-design-form-01 input[type="text"],
+.aoi-design-form-01 input[type="email"]{
+    border: solid 1px #aaa;
+    border-radius:5px;
+    padding:10px;
+    font-size: 15px;
+}
+.aoi-design-inp-10 textarea{
+    width:300px;
+    border: solid 1px #aaa;
+    border-radius:5px;
+    border-radius:5px;
+    padding: 10px;
+    height: 160px;
+    font-size: 15px;
+}
+.aoi-design-inp-11 input{
+    background: rgb(224, 211, 211);
+    font-size:16px;
+    border-radius: 15px;
+    padding: 5px 20px;
+    box-shadow:  2px 2px 8px;
+    margin-bottom: 100px;
+}
+/* ------------------------------------------------------------------- */
