@@ -30,7 +30,7 @@ section{
 /* skill
 ----------------------------------------------------------- */
 .skill-content{
-    /* background: yellow; */
+    background: yellow;
     width: 960px;
     margin: 0 auto;
 }
@@ -38,6 +38,11 @@ section{
     display: flex;
     justify-content: space-between;
     list-style: none;
+}
+.skill-content li{
+    width: calc(100%/3);
+    text-align: center;
+    margin-right: 20px;
 }
 .skill-content h2{
     text-align: center;
