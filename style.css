@@ -30,7 +30,7 @@ section{
 /* skill
 ----------------------------------------------------------- */
 .skill-content{
-    background: yellow;
+    /* background: yellow; */
     width: 960px;
     margin: 0 auto;
 }
@@ -462,7 +462,8 @@ h6 {
     grid-template-columns: repeat(3, 1fr);
 }
 
-
+/* work
+--------------------------------------------------------------------- */
 .aoi-design-fb-01{
     display: flex;
     flex-wrap: wrap;
@@ -482,7 +483,17 @@ h6 {
 .content-box p{
     padding-left: 50px;
 }
-
+.img-wrap{
+    overflow: hidden;
+}
+.img-wrap img{
+    transition: 0.3s;
+}
+.img-wrap img:hover{
+    transform:scale(1.1);
+    transition-duration: 0.3s;
+}
+/* ----------------------------------------------------------------  */
 
 
 
