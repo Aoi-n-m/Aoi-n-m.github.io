@@ -1,10 +1,5 @@
 @charset "UTF-8";
 
-.main-visual{
-    background-image: url(img/flower-y.jpeg);
-    background-size: cover;
-    height: 100vh;
-}
 
 h2{
     width: 960px;
