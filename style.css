@@ -31,7 +31,7 @@ p{
 
 
 /*
- * HeaderNav.css  
+ * HeaderNav.css
  */
 .HeaderNav {
     width: 90%;
@@ -57,7 +57,7 @@ p{
     height: 2px;
     background: #627295;
     opacity: 0;
-    visibility: 0;
+    visibility: hidden;
     transition: .3s;
 }
 .HeaderNav .HeaderNav__listItem:hover::after{
@@ -65,7 +65,9 @@ p{
     opacity: 1;
     visibility: visible;
 }
-/* Footer.css */
+/*
+ * Footer.css
+ */
 .Footer{
     background-color: #a3b4d4;
     width: 100%;
@@ -77,6 +79,32 @@ p{
 .Footer .Footer__listItem{
     display: inline;
 }
+/*
+ * Top.css
+ */
+.Top .Top__tittle{
+    font-family: 'Courier New',sans-serif;
+    color: #252424;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    background: rgba(209, 208, 208, 0.555);
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+.Top .Top__img{
+    width: 70%;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 30%;
+}
+
+
+
+
+
+
+
 
 /* skill
 ----------------------------------------------------------- */
@@ -106,19 +134,7 @@ p{
     font-family: 'Courier New',sans-serif;
     border-bottom: 3px solid #817e7e;
 }
-/* my portfolio
-------------------------------------------- */
-.aoi-design-h1-02{
-    font-family: 'Courier New',sans-serif;
-    color: #252424;
-    position: absolute;
-    top: 40%;
-    left: 20%;
-    background: rgba(209, 208, 208, 0.555);
-    font-size: 2.5rem;
-    padding: 1rem;
-}
-/* --------------------------------------- */
+
 .aoi-design-h2-01::first-letter{
     color: #6fdaad;
 }
@@ -185,14 +201,7 @@ h6 {
     height: auto;
     border-radius: 50%;
 }
-/* main-visual img
---------------------------------------------*/
-.aoi-design-i-04{
-    width: 70%;
-    height: 500px;
-    object-fit: cover;
-    margin-left: 30%;
-}
+
 /* about img,p
 --------------------------------------------*/
 .about-img{
