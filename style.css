@@ -120,34 +120,28 @@ p{
 .About .About__item .-text{
     margin: 0px 0px;
 }
-
-
-
-
-
-
-
-
-/* skill
------------------------------------------------------------ */
-.skill-content{
-    /* background: yellow; */
+/*
+ * Skill.css
+ */
+.Skill{
     width: 960px;
     margin: 0 auto;
 }
-.skill-content ul{
+.Skill .Skill__list{
     display: flex;
     justify-content: space-between;
     list-style: none;
 }
-.skill-content li{
+.Skill .Skill__list .Skill__listItem{
     width: calc(100%/3);
     text-align: center;
     margin-right: 20px;
 }
-.skill-content h2{
-    text-align: center;
-}
+
+
+
+
+
 /* -------------------------------------------------------- */
 /* parts */
 
