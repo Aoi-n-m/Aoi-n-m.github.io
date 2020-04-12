@@ -111,13 +111,13 @@ p{
     width: 960px;
     margin: 0 auto;
 }
-.About .About__item .-img{
+.About .About__item .About__profileThumbnail{
     width: 50%;
     height: auto;
     object-fit: cover;
     margin-right: 5%;
 }
-.About .About__item .-text{
+.About .About__item .About__profileText{
     margin: 0px 0px;
 }
 /*
