@@ -106,18 +106,18 @@ p{
     height: 600px;
     background-color: rgb(238, 222, 207);
 }
-.About .About__item{
+.About .About__profile{
     display: flex;
     width: 960px;
     margin: 0 auto;
 }
-.About .About__item .About__profileThumbnail{
+.About .About__profile .About__profileThumbnail{
     width: 50%;
     height: auto;
     object-fit: cover;
     margin-right: 5%;
 }
-.About .About__item .About__profileText{
+.About .About__profile .About__profileText{
     margin: 0px 0px;
 }
 /*
@@ -356,7 +356,7 @@ h6 {
     height: 2px;
     background: #627295;
     opacity: 0;
-    visibility: 0;
+    visibility: hidden;
     transition: .3s;
 }
 .aoi-design-header-01 li:hover::after{
@@ -647,4 +647,32 @@ h6 {
     justify-content: center;
     height: 100%;
     font-size: 5em;
+}
+
+/* スライダー */
+@keyframes slider {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}
+div#slider {
+    overflow: hidden;
+}
+div#slider figure img {
+    width: 20%; float: left;
+}
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s slider infinite;
 }
