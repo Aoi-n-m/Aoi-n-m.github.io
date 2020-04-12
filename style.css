@@ -621,3 +621,34 @@ h6 {
     margin-bottom: 100px;
 }
 /* ------------------------------------------------------------------- */
+
+/* スムーススクロール パーツ*/
+.aoi-design-ss-01 a {
+    display: inline-block;
+    width: 50px;
+    text-decoration: none;
+}
+.aoi-design-ss-01 nav, scroll-container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.aoi-design-ss-01 nav {
+    width: 960px;
+    padding: 5px;
+    border: 1px solid black;
+}
+.aoi-design-ss-01 scroll-container {
+    display: block;
+    width: 960px;
+    height: 600px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.aoi-design-ss-01 scroll-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 5em;
+}
