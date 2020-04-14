@@ -168,36 +168,34 @@ p{
 /*
  * Contact.css
  */
-.aoi-design-form-01{
+.Form__contents{
     width: 480px;
     margin: 0 auto;
     text-align: center;
 }
-.aoi-design-inp-08,
-.aoi-design-inp-09,
-.aoi-design-inp-10{
-    margin-bottom: 15px;
-}
-.aoi-design-form-01 label{
+.Form__contents .Form__content .Form__contentTitle{
     float: left;
     background: #e1e1e2;
     border-radius: 5px;
     margin-right: 20px;
     width: 135px;
 }
-.aoi-design-inp-08 input,
-.aoi-design-inp-09 input,
-.aoi-design-inp-10 input{
-    width:300px;
-}
-.aoi-design-form-01 input[type="text"],
-.aoi-design-form-01 input[type="email"]{
+
+.Form__contents input {
     border: solid 1px #aaa;
     border-radius:5px;
     padding:10px;
     font-size: 15px;
 }
-.aoi-design-inp-10 textarea{
+
+.Form__contents .Form__content{
+    margin-bottom: 15px;
+}
+.Form__contents .Form__content input{
+    width:300px;
+}
+
+.Form__contents .Form__content textarea{
     width:300px;
     border: solid 1px #aaa;
     border-radius:5px;
@@ -206,7 +204,7 @@ p{
     height: 160px;
     font-size: 15px;
 }
-.aoi-design-inp-11 input{
+.Form__contents .Form__contentBtn .Form__contentSubmit{
     background: rgb(224, 211, 211);
     font-size:16px;
     border-radius: 15px;
