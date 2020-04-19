@@ -622,17 +622,6 @@ h6 {
 
 /* ------------------------------------------------------------------- */
 
-/* スムーススクロール パーツ*/
-.aoi-design-ss-01 a {
-    /* display: inline-block;
-    text-decoration: none; */
-}
-.aoi-design-ss-01 scroll-container {
-    overflow-y: scroll;
-    scroll-behavior: smooth;
-}
-
-
 /* スライダー */
 @keyframes slider {
     0% { left: 0%; }
@@ -792,4 +781,78 @@ div#slider figure {
     left: 0;
     margin: auto;
     text-align: center;
+}
+
+
+/* モーダル */
+.Modal__wrapper {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 60px 10px;
+    text-align: center
+}
+
+.Modal__wrapper:not(:target) {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .3s, visibility .3s;
+}
+.Modal__wrapper:target {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity .4s, visibility .4s;
+}
+.Modal__wrapper::after {
+    display: inline-block;
+    height: 100%;
+    margin-left: -.05em;
+    vertical-align: middle;
+    content: ""
+}
+.Modal__wrapper .Modal__window {
+    box-sizing: border-box;
+    display: inline-block;
+    z-index: 20;
+    position: relative;
+    width: 70%;
+    max-width: 600px;
+    padding: 30px 30px 15px;
+    border-radius: 2px;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .6);
+    vertical-align: middle
+}
+.Modal__wrapper .Modal__window .Modal__content {
+    max-height: 80vh;
+    overflow-y: auto;
+}
+.Modal__overlay {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .8)
+}
+.Modal__wrapper .Modal__close {
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35px;
+    color: #95979c !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0
+}
+.Modal__wrapper .Modal__close:hover {
+    color: #2b2e38 !important
 }
