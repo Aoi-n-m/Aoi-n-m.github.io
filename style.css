@@ -115,13 +115,13 @@ p{
     width: 960px;
     margin: 0 auto;
 }
-.About .About__profile .About__profileThumbnail{
+.About .About__thumbnail{
     width: 50%;
     height: auto;
     object-fit: cover;
     margin-right: 5%;
 }
-.About .About__profile .About__profileText{
+.About .About__introduction{
     margin: 0px 0px;
 }
 /*
