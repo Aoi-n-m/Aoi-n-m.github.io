@@ -1,0 +1,11 @@
+.Footer{
+    background-color: #96AEC3;
+    width: 100%;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.Footer .Footer__listItem{
+    display: inline;
+}
