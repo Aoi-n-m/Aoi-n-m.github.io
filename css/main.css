@@ -105,53 +105,7 @@ p{
 
 
 
-/*
- * Contact.css
- */
-.Form__contents{
-    width: 480px;
-    margin: 0 auto;
-    text-align: center;
-}
-.Form__contents .Form__content .Form__contentTitle{
-    float: left;
-    background: #e1e1e2;
-    border-radius: 5px;
-    margin-right: 20px;
-    width: 135px;
-}
 
-.Form__contents input {
-    border: solid 1px #aaa;
-    border-radius:5px;
-    padding:10px;
-    font-size: 15px;
-}
-
-.Form__contents .Form__content{
-    margin-bottom: 15px;
-}
-.Form__contents .Form__content input{
-    width:300px;
-}
-
-.Form__contents .Form__content textarea{
-    width:300px;
-    border: solid 1px #aaa;
-    border-radius:5px;
-    border-radius:5px;
-    padding: 10px;
-    height: 160px;
-    font-size: 15px;
-}
-.Form__contents .Form__contentBtn .Form__contentSubmit{
-    background: rgb(224, 211, 211);
-    font-size:16px;
-    border-radius: 15px;
-    padding: 5px 20px;
-    box-shadow:  2px 2px 8px;
-    margin-bottom: 100px;
-}
 /* ----------------------------------------------------------------  */
 
 
