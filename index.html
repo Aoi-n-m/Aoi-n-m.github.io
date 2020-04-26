@@ -28,7 +28,22 @@
                 </ul>
             </nav>
         </header>
-
+<!-- ハンバーガーメニュー  スマホサイズで表示-->
+<div class="Header__menu">
+    <div id="Nav__drawer">
+        <input id="Nav__input" type="checkbox" class="Nav__unshown">
+        <label id="Nav__open" for="Nav__input"><span></span></label>
+        <label class="Nav__unshown" id="Nav__close" for="Nav__input"></label>
+        <div id="Nav__content">
+          <ul class="Nav__contentList">
+            <li class="HeaderNav__listItem"><a href="#top">top</a></li>
+            <li class="HeaderNav__listItem"><a href="#about">about</a></li>
+            <li class="HeaderNav__listItem"><a href="#skill">skill</a></li>
+            <li class="HeaderNav__listItem"><a href="#work">work</a></li>
+            <li class="HeaderNav__listItem"><a href="#contact">contact</a></li>
+          </ul>
+        </div>
+    </div>
         <main>
                     <section class="Top">
                             <h1 class="Top__tittle">moe's portfolio</h1>
@@ -39,9 +54,8 @@
                         <div id="about"><h2>about</h2></div>
                         <div class="About__profile">
                             <img class="About__thumbnail" src="img/about.JPG" alt="">
-                            <p class="About__introduction">事務職として働く中で、毎日職場と家との往復だけで終わる生活に疑問を持つ。<br>
-                                ハンドメイド作家との繋がりがきっかけで、自分でも制作活動を始めた経験があり、ものづくりが好きだと気付きWeb制作の道へ。<br>
-                            </p>
+                            <p class="About__introduction">事務職として働く中で、毎日職場と家との往復だけで終わる生活に疑問を持つ。
+                            ハンドメイド作家との繋がりがきっかけで、自分でも制作活動を始めた経験があり、ものづくりが好きだと気付きWeb制作の道へ。</p>
                             <!-- p 要修正 -->
                         </div>
                     </section>
@@ -52,8 +66,8 @@
                                 <ul class="Skill__list">
                                     <li class="Skill__listItem"><img src="img/HTML,CSS.png">
                                         <p>HTML/CSS</p>
-                                        <p>基本的なコーディングが可能です。</p>
-                                        <p>使用エディタはVScodeになります。</p></li>
+                                        <p>基本的なコーディングが可能です。
+                                        使用エディタはVScodeになります。</p></li>
                                     <li class="Skill__listItem"><img src="img/Wordpress.png">
                                         <p>WordPress</p>
                                         <p>テーマを利用したサイトの制作が可能です。</p>
@@ -134,11 +148,11 @@
 
         <footer class="Footer">
             <ul>
-                <li class="Footer__listItem">top ｜</li>
-                <li class="Footer__listItem">about ｜</li>
-                <li class="Footer__listItem">skill ｜</li>
-                <li class="Footer__listItem">work ｜</li>
-                <li class="Footer__listItem">contact </li>
+                <li class="Footer__listItem"><a href="#top">top</a> ｜</li>
+                <li class="Footer__listItem"><a href="#about">about</a> ｜</li>
+                <li class="Footer__listItem"><a href="#skill">skill</a> ｜</li>
+                <li class="Footer__listItem"><a href="#work">work</a> ｜</li>
+                <li class="Footer__listItem"><a href="#contact">contact</a> </li>
             </ul>
             <p>© 2020 xxxxxxxx</p>
         </footer>

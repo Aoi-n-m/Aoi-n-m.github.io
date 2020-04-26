@@ -20,3 +20,8 @@
 .About .About__introduction{
     margin: 0px 0px;
 }
+
+@media screen and (max-width: 559px){
+    .About .About__profile{
+        flex-direction: column;
+}

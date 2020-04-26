@@ -23,3 +23,8 @@
     transform:scale(1.1);
     transition-duration: 0.3s;
 }
+@media screen and (max-width: 559px){
+    .Work .Work__content{
+        flex-direction: column;
+    }
+}

@@ -9,3 +9,6 @@
 .Footer .Footer__listItem{
     display: inline;
 }
+.Footer .Footer__listItem a{
+    color: white;
+}
