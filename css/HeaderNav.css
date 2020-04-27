@@ -123,9 +123,8 @@
 
 @media screen and (min-width: 560px){
     .Header__menu{
-       /* display: none; */
+       display: none;
     }
-    /* ハンバーガーメニューだけ非表示にしたいのに、HeaderNav以外全て消える・・・？ */
 }
 
 @media screen and (max-width: 559px){
