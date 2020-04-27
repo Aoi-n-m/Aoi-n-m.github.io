@@ -14,3 +14,13 @@
     object-fit: cover;
     margin-left: 30%;
 }
+
+
+@media screen and (max-width: 559px){
+    .Top .Top__tittle{
+        
+    }
+    .Top .Top__img{
+        margin-left: 0;
+    }
+}

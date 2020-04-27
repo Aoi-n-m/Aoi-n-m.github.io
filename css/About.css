@@ -19,9 +19,19 @@
 }
 .About .About__introduction{
     margin: 0px 0px;
+    width: 50%;
 }
 
 @media screen and (max-width: 559px){
     .About .About__profile{
         flex-direction: column;
+    }
+    .About .About__thumbnail{
+        width: 45%;
+    }
+    .About .About__introduction{
+        margin-top: 20px;
+        font-size: 14px;
+        width: 45%;
+    }
 }

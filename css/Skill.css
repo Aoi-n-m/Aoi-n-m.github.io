@@ -17,4 +17,9 @@
 @media screen and (max-width: 559px){
     .Skill .Skill__list{
         flex-direction: column;
+    }
 }
+/* 中央に寄せたい
+    justify-content: center;
+    align-items: center;
+    いれてもPCの横幅に合わせて中央・・・ */
