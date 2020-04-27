@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,135 +18,148 @@
 
 
 <body>
-        <header class="HeaderNav">
-            <nav>
-                <ul>
+    <header class="HeaderNav">
+        <nav>
+            <ul>
+                <li class="HeaderNav__listItem"><a href="#top">top</a></li>
+                <li class="HeaderNav__listItem"><a href="#about">about</a></li>
+                <li class="HeaderNav__listItem"><a href="#skill">skill</a></li>
+                <li class="HeaderNav__listItem"><a href="#work">work</a></li>
+                <li class="HeaderNav__listItem"><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ハンバーガーメニュー  スマホサイズで表示-->
+    <div class="Header__menu">
+        <div id="Nav__drawer">
+            <input id="Nav__input" type="checkbox" class="Nav__unshown">
+            <label id="Nav__open" for="Nav__input"><span></span></label>
+            <label class="Nav__unshown" id="Nav__close" for="Nav__input"></label>
+            <div id="Nav__content">
+                <ul class="Nav__contentList">
                     <li class="HeaderNav__listItem"><a href="#top">top</a></li>
                     <li class="HeaderNav__listItem"><a href="#about">about</a></li>
                     <li class="HeaderNav__listItem"><a href="#skill">skill</a></li>
                     <li class="HeaderNav__listItem"><a href="#work">work</a></li>
                     <li class="HeaderNav__listItem"><a href="#contact">contact</a></li>
                 </ul>
-            </nav>
-        </header>
-<!-- ハンバーガーメニュー  スマホサイズで表示-->
-<div class="Header__menu">
-    <div id="Nav__drawer">
-        <input id="Nav__input" type="checkbox" class="Nav__unshown">
-        <label id="Nav__open" for="Nav__input"><span></span></label>
-        <label class="Nav__unshown" id="Nav__close" for="Nav__input"></label>
-        <div id="Nav__content">
-          <ul class="Nav__contentList">
-            <li class="HeaderNav__listItem"><a href="#top">top</a></li>
-            <li class="HeaderNav__listItem"><a href="#about">about</a></li>
-            <li class="HeaderNav__listItem"><a href="#skill">skill</a></li>
-            <li class="HeaderNav__listItem"><a href="#work">work</a></li>
-            <li class="HeaderNav__listItem"><a href="#contact">contact</a></li>
-          </ul>
+            </div>
         </div>
     </div>
-</div>
-        <main>
-                    <section class="Top">
-                            <h1 class="Top__tittle">moe's portfolio</h1>
-                            <img class="Top__img" src="img/flower-y.jpeg" alt="">
-                    </section>
+    <main>
+        <section class="Top">
+            <h1 class="Top__tittle">moe's portfolio</h1>
+            <img class="Top__img" src="img/flower-y.jpeg" alt="">
+        </section>
 
-                    <section class="About">
-                        <div id="about"><h2>about</h2></div>
-                        <div class="About__profile">
-                            <img class="About__thumbnail" src="img/about.JPG" alt="">
-                            <p class="About__introduction">事務職として働く中で、毎日職場と家との往復だけで終わる生活に疑問を持つ。
-                            ハンドメイド作家との繋がりがきっかけで、自分でも制作活動を始めた経験があり、ものづくりが好きだと気付きWeb制の勉強を始める。</p>
-                            <!-- p 要修正 -->
-                        </div>
-                    </section>
+        <section class="About">
+            <div id="about">
+                <h2>about</h2>
+            </div>
+            <div class="About__profile">
+                <img class="About__thumbnail" src="img/about.JPG" alt="">
+                <p class="About__introduction">事務職として働く中で、毎日職場と家との往復だけで終わる生活に疑問を持つ。
+                    ハンドメイド作家との繋がりがきっかけで、自分でも制作活動を始めた経験があり、ものづくりが好きだと気付きWeb制の勉強を始める。</p>
+                <!-- p 要修正 -->
+            </div>
+        </section>
 
-                    <section class="Skill">
-                        <div id="skill"><h2>skill</h2></div>
-                            <nav>
-                                <ul class="Skill__list">
-                                    <li class="Skill__listItem"><img src="img/HTML,CSS.png">
-                                        <p>HTML/CSS</p>
-                                        <p>基本的なコーディングが可能です。
-                                        使用エディタはVScodeになります。</p></li>
-                                    <li class="Skill__listItem"><img src="img/Wordpress.png">
-                                        <p>WordPress</p>
-                                        <p>テーマを利用したサイトの制作が可能です。</p>
-                                        </li>
-                                    <li class="Skill__listItem"><img src="img/xd.png"><p>Adbe Xd</p>
-                                        <p>Webサイトのデザインで主に使用しています。</p></li>
-                                </ul>
-                            </nav>
-                    </section>
+        <section class="Skill">
+            <div id="skill">
+                <h2>skill</h2>
+            </div>
+            <nav>
+                <ul class="Skill__list">
+                    <li class="Skill__listItem"><img src="img/HTML,CSS.png">
+                        <p>HTML/CSS</p>
+                        <p>基本的なコーディングが可能です。
+                            使用エディタはVScodeになります。</p>
+                    </li>
+                    <li class="Skill__listItem"><img src="img/Wordpress.png">
+                        <p>WordPress</p>
+                        <p>テーマを利用したサイトの制作が可能です。</p>
+                    </li>
+                    <li class="Skill__listItem"><img src="img/xd.png">
+                        <p>Adbe Xd</p>
+                        <p>Webサイトのデザインで主に使用しています。</p>
+                    </li>
+                </ul>
+            </nav>
+        </section>
 
-                    <section class="Work">
-                        <div id="work"><h2>work</h2></div>
+        <section class="Work">
+            <div id="work">
+                <h2>work</h2>
+            </div>
 
-                        <div class="Work__content">
-                            <div class="Work__contentBox">
-                                <div class="Work__contentImage">
-                                    <a href="#modal-01"><img src="img/work1.png"></a>
-                                </div>
-                                <p class="Work__contentText">テキスト テキスト テキスト</p>
-                            </div>
-                            <div class="Work__contentBox">
-                                <div class="Work__contentImage">
-                                    <a href="#modal-02"><img src="img/work2.png"></a>
-                                </div>
-                                <p class="Work__contentText">テキスト テキスト テキスト</p>
-                            </div>
-                            <div class="Work__contentBox">
-                                <div class="Work__contentImage">
-                                    <a href="#modal-03"><img src="img/work3.png"></a>
-                                </div>
-                                <p class="Work__contentText">テキスト テキスト テキスト</p>
-                            </div>
-                            <div class="Work__contentBox">
-                                <div class="Work__contentImage">
-                                    <a href="#"><img src="img/Frame 4.png" alt=""></a>
-                                </div>
-                                <p class="Work__contentText">テキスト テキスト テキスト</p>
-                            </div>
-                            <div class="Work__contentBox">
-                                <div class="Work__contentImage">
-                                    <a href="#"><img src="img/Frame 5.png" alt=""></a>
-                                </div>
-                                <p class="Work__contentText">テキスト テキスト テキスト</p>
-                            </div>
-                            <div class="Work__contentBox">
-                                <div class="Work__contentImage">
-                                    <a href="#"><img src="img/Frame 6.png" alt=""></a>
-                                </div>
-                                <p class="Work__contentText">テキスト テキスト テキスト</p>
-                            </div>
-                        </div>
-                    </section>
+            <div class="Work__content">
+                <div class="Work__contentBox">
+                    <div class="Work__contentImage">
+                        <a href="#modal-01"><img src="img/work1.png"></a>
+                    </div>
+                    <p class="Work__contentText">テキスト テキスト テキスト</p>
+                </div>
+                <div class="Work__contentBox">
+                    <div class="Work__contentImage">
+                        <a href="#modal-02"><img src="img/work2.png"></a>
+                    </div>
+                    <p class="Work__contentText">テキスト テキスト テキスト</p>
+                </div>
+                <div class="Work__contentBox">
+                    <div class="Work__contentImage">
+                        <a href="#modal-03"><img src="img/work3.png"></a>
+                    </div>
+                    <p class="Work__contentText">テキスト テキスト テキスト</p>
+                </div>
+                <div class="Work__contentBox">
+                    <div class="Work__contentImage">
+                        <a href="#"><img src="img/Frame 4.png" alt=""></a>
+                    </div>
+                    <p class="Work__contentText">テキスト テキスト テキスト</p>
+                </div>
+                <div class="Work__contentBox">
+                    <div class="Work__contentImage">
+                        <a href="#"><img src="img/Frame 5.png" alt=""></a>
+                    </div>
+                    <p class="Work__contentText">テキスト テキスト テキスト</p>
+                </div>
+                <div class="Work__contentBox">
+                    <div class="Work__contentImage">
+                        <a href="#"><img src="img/Frame 6.png" alt=""></a>
+                    </div>
+                    <p class="Work__contentText">テキスト テキスト テキスト</p>
+                </div>
+            </div>
+        </section>
 
-                    <section>
-                        <div id="contact"><h2>contact</h2></div>
+        <section>
+            <div id="contact">
+                <h2>contact</h2>
+            </div>
 
-                        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc9YSFCCUWHlrWemHfMCgwUX5wWP3leFzemYlCw2DGjcBKQRw/formResponse" target="_self" method="POST" id="mG61Hd">
+            <form
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc9YSFCCUWHlrWemHfMCgwUX5wWP3leFzemYlCw2DGjcBKQRw/formResponse"
+                target="_self" method="POST" id="mG61Hd">
 
-                            <div class="Form__contents">
-                                <div class="Form__content">
-                                    <label class="Form__contentTitle">お名前</label>
-                                    <input class="Form__input" type="text" name="entry.2005620554">
-                                </div>
-                                <div class="Form__content">
-                                    <label class="Form__contentTitle">E-mail</label>
-                                    <input class="Form__input" type="email" name="entry.1045781291">
-                                </div>
-                                <div class="Form__content">
-                                    <label class="Form__contentTitle">お問い合わせ</label>
-                                    <textarea class="Form__comment" type="textarea" name="entry.839337160"></textarea>
-                                </div>
-                                <div class="Form__contentBtn">
-                                    <input class="Form__contentSubmit" type="submit" value="送  信">
-                                </div>
-                            </div>
-                        </form>
-                    </section>
+                <div class="Form__contents">
+                    <div class="Form__content">
+                        <label class="Form__contentTitle">お名前</label>
+                        <input class="Form__input" type="text" name="entry.2005620554">
+                    </div>
+                    <div class="Form__content">
+                        <label class="Form__contentTitle">E-mail</label>
+                        <input class="Form__input" type="email" name="entry.1045781291">
+                    </div>
+                    <div class="Form__content">
+                        <label class="Form__contentTitle">お問い合わせ</label>
+                        <textarea class="Form__comment" type="textarea" name="entry.839337160"></textarea>
+                    </div>
+                    <div class="Form__contentBtn">
+                        <input class="Form__contentSubmit" type="submit" value="送  信">
+                    </div>
+                </div>
+            </form>
+        </section>
 
         <footer class="Footer">
             <ul>
@@ -178,11 +192,15 @@
 
             <h3>p タグ</h3>
             <div class="parts">
-                <p>sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample.</p>
+                <p>sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample.
+                    sample. sample. sample. sample. sample. sample. sample.</p>
             </div>
-            <p class="aoi-design-p-01">sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample.</p>
-            <p class="aoi-design-p-02">sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample.</p>
-            <p class="aoi-design-p-03">sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample. sample.</p>
+            <p class="aoi-design-p-01">sample. sample. sample. sample. sample. sample. sample. sample. sample. sample.
+                sample. sample. sample. sample. sample. sample. sample. sample. sample.</p>
+            <p class="aoi-design-p-02">sample. sample. sample. sample. sample. sample. sample. sample. sample. sample.
+                sample. sample. sample. sample. sample. sample. sample. sample. sample.</p>
+            <p class="aoi-design-p-03">sample. sample. sample. sample. sample. sample. sample. sample. sample. sample.
+                sample. sample. sample. sample. sample. sample. sample. sample. sample.</p>
 
 
             <h3>img</h3>
@@ -192,7 +210,8 @@
             <img class="aoi-design-i-04" src="img/flower-y.jpeg" alt="">
             <div class="about-img">
                 <img class="aoi-design-i-05" src="img/about.JPG" alt="">
-                <p>テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト</p>
+                <p>テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト
+                    テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト</p>
             </div>
 
 
@@ -217,25 +236,31 @@
 
             <table class="aoi-design-t-0" border="1">
                 <tr>
-                    <th>AAA</th><th>BBB</th>
+                    <th>AAA</th>
+                    <th>BBB</th>
                 </tr>
                 <tr>
-                    <td>aa</td><td>bb</td>
+                    <td>aa</td>
+                    <td>bb</td>
                 </tr>
                 <tr>
-                    <td>aaaa</td><td>bbbb</td>
+                    <td>aaaa</td>
+                    <td>bbbb</td>
                 </tr>
             </table>
 
             <table class="aoi-design-t-02">
                 <tr>
-                    <th>AAA</th><th>BBB</th>
+                    <th>AAA</th>
+                    <th>BBB</th>
                 </tr>
                 <tr>
-                    <td>aa</td><td>bb</td>
+                    <td>aa</td>
+                    <td>bb</td>
                 </tr>
                 <tr>
-                    <td>aaaa</td><td>bbbb</td>
+                    <td>aaaa</td>
+                    <td>bbbb</td>
                 </tr>
             </table>
         </section>
@@ -258,283 +283,252 @@
         </div>
         <!-- 名前押すとフォームに連動 -->
 
-            <input type="text" value="" placeholder="ここにテキスト表示" class="aoi-design-inp-03">
-            <input type="submit" value="送信" class="aoi-design-inp-04">
-            <label>メールアドレス：<input type="email" class="aoi-design-inp-05"></label>
-            <label>電話番号：<input type="tel" name="tel" size="12" maxlength="20" class="aoi-design-inp-06"></label>
-            <label>URL：<input type="url" name="url" size="30" maxlength="40" class="aoi-design-inp-07"></label>
-            <label>検索テキスト：<input type="search" name="search" size="30" maxlength="255" class="aoi-design-inp-07"></label>
-            <textarea id="kanso" name="kanso" cols="40" rows="4" maxlength="20" placeholder="ご意見・ご感想をご記入ください"></textarea>
+        <input type="text" value="" placeholder="ここにテキスト表示" class="aoi-design-inp-03">
+        <input type="submit" value="送信" class="aoi-design-inp-04">
+        <label>メールアドレス：<input type="email" class="aoi-design-inp-05"></label>
+        <label>電話番号：<input type="tel" name="tel" size="12" maxlength="20" class="aoi-design-inp-06"></label>
+        <label>URL：<input type="url" name="url" size="30" maxlength="40" class="aoi-design-inp-07"></label>
+        <label>検索テキスト：<input type="search" name="search" size="30" maxlength="255" class="aoi-design-inp-07"></label>
+        <textarea id="kanso" name="kanso" cols="40" rows="4" maxlength="20" placeholder="ご意見・ご感想をご記入ください"></textarea>
 
-            <!-- 問い合わせフォーム -->
-            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc9YSFCCUWHlrWemHfMCgwUX5wWP3leFzemYlCw2DGjcBKQRw/formResponse" target="_self" method="POST" id="mG61Hd">
+        <!-- 問い合わせフォーム -->
+        <form
+            action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc9YSFCCUWHlrWemHfMCgwUX5wWP3leFzemYlCw2DGjcBKQRw/formResponse"
+            target="_self" method="POST" id="mG61Hd">
 
-                <div class="aoi-design-form-01">
-                    <div class="aoi-design-inp-08">
-                        <label class="label">お名前</label>
-                        <input type="text" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="名前" aria-describedby="i.desc.1633920210 i.err.1633920210" name="entry.2005620554" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="">
-                    </div>
-
-                    <div class="aoi-design-inp-09">
-                        <label class="label">E-mail</label>
-                        <input type="email" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="メールアドレス" aria-describedby="i.desc.227649005 i.err.227649005" name="entry.1045781291" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="">
-                    </div>
-        
-                    <div class="aoi-design-inp-10">
-                        <label class="label">お問い合わせ</label>
-                        <textarea class="quantumWizTextinputPapertextareaInput exportTextarea" jsname="YPqjbf" data-rows="1" tabindex="0" aria-label="コメント" jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" name="entry.839337160" dir="auto" data-initial-dir="auto" data-initial-value="" aria-describedby="i.desc.1846923513 i.err.1846923513" style="height: 24px;"></textarea>
-                    </div>
-        
-                    <div class="aoi-design-inp-11">
-                        <input type="submit" value="送信">
-                    </div>
+            <div class="aoi-design-form-01">
+                <div class="aoi-design-inp-08">
+                    <label class="label">お名前</label>
+                    <input type="text" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf"
+                        autocomplete="off" tabindex="0" aria-label="名前"
+                        aria-describedby="i.desc.1633920210 i.err.1633920210" name="entry.2005620554" value=""
+                        required="" dir="auto" data-initial-dir="auto" data-initial-value="">
                 </div>
+
+                <div class="aoi-design-inp-09">
+                    <label class="label">E-mail</label>
+                    <input type="email" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf"
+                        autocomplete="off" tabindex="0" aria-label="メールアドレス"
+                        aria-describedby="i.desc.227649005 i.err.227649005" name="entry.1045781291" value="" required=""
+                        dir="auto" data-initial-dir="auto" data-initial-value="">
+                </div>
+
+                <div class="aoi-design-inp-10">
+                    <label class="label">お問い合わせ</label>
+                    <textarea class="quantumWizTextinputPapertextareaInput exportTextarea" jsname="YPqjbf" data-rows="1"
+                        tabindex="0" aria-label="コメント" jscontroller="gZjhIf"
+                        jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" name="entry.839337160" dir="auto"
+                        data-initial-dir="auto" data-initial-value=""
+                        aria-describedby="i.desc.1846923513 i.err.1846923513" style="height: 24px;"></textarea>
+                </div>
+
+                <div class="aoi-design-inp-11">
+                    <input type="submit" value="送信">
+                </div>
+            </div>
+        </form>
+
+
+        <div class="form">
+            <form
+                action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc9YSFCCUWHlrWemHfMCgwUX5wWP3leFzemYlCw2DGjcBKQRw/formResponse"
+                target="_self" method="POST" id="mG61Hd">
+                <input type="text" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf"
+                    autocomplete="off" tabindex="0" aria-label="名前"
+                    aria-describedby="i.desc.1633920210 i.err.1633920210" name="entry.2005620554" value="" required=""
+                    dir="auto" data-initial-dir="auto" data-initial-value="" placeholder="Your Name">
+
+                <input type="email" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf"
+                    autocomplete="off" tabindex="0" aria-label="メールアドレス"
+                    aria-describedby="i.desc.227649005 i.err.227649005" name="entry.1045781291" value="" required=""
+                    dir="auto" data-initial-dir="auto" data-initial-value="" placeholder="Your Email">
+
+                <textarea class="quantumWizTextinputPapertextareaInput exportTextarea" jsname="YPqjbf" data-rows="1"
+                    tabindex="0" aria-label="コメント" jscontroller="gZjhIf"
+                    jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" name="entry.839337160" dir="auto"
+                    data-initial-dir="auto" data-initial-value="" aria-describedby="i.desc.1846923513 i.err.1846923513"
+                    style="height: 24px;"></textarea>
+
+                <button type="submit" name="submit" class="btn btn-info ">Submit</button>
             </form>
-
-
-            <div class="form">
-                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc9YSFCCUWHlrWemHfMCgwUX5wWP3leFzemYlCw2DGjcBKQRw/formResponse" target="_self" method="POST" id="mG61Hd">
-                    <input type="text" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="名前" aria-describedby="i.desc.1633920210 i.err.1633920210" name="entry.2005620554" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="" placeholder="Your Name">
-
-                  <input type="email" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="メールアドレス" aria-describedby="i.desc.227649005 i.err.227649005" name="entry.1045781291" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="" placeholder="Your Email">
-                  
-                  <textarea class="quantumWizTextinputPapertextareaInput exportTextarea" jsname="YPqjbf" data-rows="1" tabindex="0" aria-label="コメント" jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" name="entry.839337160" dir="auto" data-initial-dir="auto" data-initial-value="" aria-describedby="i.desc.1846923513 i.err.1846923513" style="height: 24px;"></textarea>
-
-                  <button type="submit" name="submit" class="btn btn-info ">Submit</button>
-                </form>
-              </div>
+        </div>
 
 
 
-            <header class="aoi-design-header-01">
-                    <h1></h1>
-                    <nav>
-                        <ul>
-                            <li>top</li>
-                            <li>about</li>
-                            <li>skill</li>
-                            <li>work</li>
-                            <li>contact</li>
-                        </ul>
-                    </nav>
-            </header>
-
-            <header class="aoi-design-header-02">
-                <nav>
-                    <ul>
-                        <li>top</li>
-                        <li>about</li>
-                        <li>skill</li>
-                        <li>work</li>
-                        <li>contact</li>
-                    </ul>
-                </nav>
-            </header>
-            <footer class="aoi-design-footer-01">
+        <header class="aoi-design-header-01">
+            <h1></h1>
+            <nav>
                 <ul>
-                    <li>home ｜</li>
-                    <li>about ｜</li>
-                    <li>service ｜</li>
-                    <li>Contact </li>
+                    <li>top</li>
+                    <li>about</li>
+                    <li>skill</li>
+                    <li>work</li>
+                    <li>contact</li>
                 </ul>
-                <p>© 2020 xxxxxxxx</p>
-            </footer>
+            </nav>
+        </header>
+
+        <header class="aoi-design-header-02">
+            <nav>
+                <ul>
+                    <li>top</li>
+                    <li>about</li>
+                    <li>skill</li>
+                    <li>work</li>
+                    <li>contact</li>
+                </ul>
+            </nav>
+        </header>
+        <footer class="aoi-design-footer-01">
+            <ul>
+                <li>home ｜</li>
+                <li>about ｜</li>
+                <li>service ｜</li>
+                <li>Contact </li>
+            </ul>
+            <p>© 2020 xxxxxxxx</p>
+        </footer>
 
 
-            <p class="aoi-design-border-01">sample sample sample ample sample sample sample sample sample</p>
-            <p class="aoi-design-border-02">sample sample sample ample sample sample sample sample sample</p>
-            <p class="aoi-design-border-03">sample sample sample ample sample sample sample sample sample</p>
+        <p class="aoi-design-border-01">sample sample sample ample sample sample sample sample sample</p>
+        <p class="aoi-design-border-02">sample sample sample ample sample sample sample sample sample</p>
+        <p class="aoi-design-border-03">sample sample sample ample sample sample sample sample sample</p>
 
-            <button type="button" class="aoi-design-button-01">送信</button>
-            <button type="button" class="aoi-design-button-02">送信</button>
-            <button type="button" class="aoi-design-button-03"><span>button</span></button>
+        <button type="button" class="aoi-design-button-01">送信</button>
+        <button type="button" class="aoi-design-button-02">送信</button>
+        <button type="button" class="aoi-design-button-03"><span>button</span></button>
 
-            <hr class="aoi-design-hr-01">
-            <hr class="aoi-design-hr-02">
+        <hr class="aoi-design-hr-01">
+        <hr class="aoi-design-hr-02">
 
-            <div class="aoi-design-w-01">
-                <p>横幅　auto</p>
+        <div class="aoi-design-w-01">
+            <p>横幅　auto</p>
+        </div>
+        <div class="aoi-design-w-02">
+            <p>横幅　px</p>
+        </div>
+        <div class="aoi-design-w-03">
+            <p>横幅　%</p>
+        </div>
+
+        <!-- 親要素大きめの場合 -->
+        <div class="aoi-design-w-04">
+            <p class="nomin">最小幅なし</p>
+            <p class="min">最小幅100px</p>
+        </div>
+        <!-- 親要素小さめの場合 -->
+        <div class="aoi-design-w-05">
+            <p class="nomin">最小幅なし</p>
+            <p class="min">最小幅100px</p>
+        </div>
+
+        <!-- 親要素小さめの場合 -->
+        <div class="aoi-design-w-06">
+            <p class="nomin">最小幅なし</p>
+            <p class="min">最小幅100px</p>
+        </div>
+        <!-- 親要素大きめの場合 -->
+        <div class="aoi-design-w-07">
+            <p class="nomin">最小幅なし</p>
+            <p class="min">最小幅100px</p>
+        </div>
+
+        <!-- gridレイアウト -->
+        <section class="aoi-design-grid-01">
+            <div class="item">
+                <img src="img/Frame 1.png" alt="">
+                <p>テキスト テキスト テキスト</p>
             </div>
-            <div class="aoi-design-w-02">
-                <p>横幅　px</p>
+            <div class="item">
+                <img src="img/Frame 2.png" alt="">
+                <p>テキスト テキスト テキスト</p>
             </div>
-            <div class="aoi-design-w-03">
-                <p>横幅　%</p>
+            <div class="item">
+                <img src="img/Frame 3.png" alt="">
+                <p>テキスト テキスト テキスト</p>
             </div>
-
-            <!-- 親要素大きめの場合 -->
-            <div class="aoi-design-w-04">
-                <p class="nomin">最小幅なし</p>
-                <p class="min">最小幅100px</p>
+            <div class="item">
+                <img src="img/Frame 4.png" alt="">
+                <p>テキスト テキスト テキスト</p>
             </div>
-            <!-- 親要素小さめの場合 -->
-            <div class="aoi-design-w-05">
-                <p class="nomin">最小幅なし</p>
-                <p class="min">最小幅100px</p>
+            <div class="item">
+                <img src="img/Frame 5.png" alt="">
+                <p>テキスト テキスト テキスト</p>
             </div>
-
-            <!-- 親要素小さめの場合 -->
-            <div class="aoi-design-w-06">
-                <p class="nomin">最小幅なし</p>
-                <p class="min">最小幅100px</p>
+            <div class="item">
+                <img src="img/Frame 6.png" alt="">
+                <p>テキスト テキスト テキスト</p>
             </div>
-            <!-- 親要素大きめの場合 -->
-            <div class="aoi-design-w-07">
-                <p class="nomin">最小幅なし</p>
-                <p class="min">最小幅100px</p>
+        </section>
+
+        <!-- flexbox ３×２ -->
+        <section class="aoi-design-fb-01">
+            <div class="Work__contentBox">
+                <img src="img/Frame 1.png" alt="">
+                <p>テキスト テキスト テキスト</p>
             </div>
+            <div class="Work__contentBox">
+                <img src="img/Frame 2.png" alt="">
+                <p>テキスト テキスト テキスト</p>
+            </div>
+            <div class="Work__contentBox">
+                <img src="img/Frame 3.png" alt="">
+                <p>テキスト テキスト テキスト</p>
+            </div>
+            <div class="Work__contentBox">
+                <img src="img/Frame 4.png" alt="">
+                <p>テキスト テキスト テキスト</p>
+            </div>
+            <div class="Work__contentBox">
+                <img src="img/Frame 5.png" alt="">
+                <p>テキスト テキスト テキスト</p>
+            </div>
+            <div class="Work__contentBox">
+                <img src="img/Frame 6.png" alt="">
+                <p>テキスト テキスト テキスト</p>
+            </div>
+        </section>
+        <br><br>
 
-            <!-- gridレイアウト -->
-            <section class="aoi-design-grid-01">
-                <div class="item">
-                    <img src="img/Frame 1.png" alt="">
-                    <p>テキスト テキスト テキスト</p>
-                </div>
-                <div class="item">
-                    <img src="img/Frame 2.png" alt="">
-                    <p>テキスト テキスト テキスト</p>
-                </div>
-                <div class="item">
-                    <img src="img/Frame 3.png" alt="">
-                    <p>テキスト テキスト テキスト</p>
-                </div>
-                <div class="item">
-                    <img src="img/Frame 4.png" alt="">
-                    <p>テキスト テキスト テキスト</p>
-                </div>
-                <div class="item">
-                    <img src="img/Frame 5.png" alt="">
-                    <p>テキスト テキスト テキスト</p>
-                </div>
-                <div class="item">
-                    <img src="img/Frame 6.png" alt="">
-                    <p>テキスト テキスト テキスト</p>
-                </div>
-            </section>
+        <!-- スムーズスクロール -->
+        <a href="#top">top</a>
+        <a href="#about">about</a>
+        <a href="#skill">skill</a>
+        <a href="#work">work</a>
+        <a href="#contact">contact</a>
 
-<!-- flexbox ３×２ -->
-            <section class="aoi-design-fb-01">
-                <div class="Work__contentBox">
-                    <img src="img/Frame 1.png" alt="">
-                    <p>テキスト テキスト テキスト</p>
-                </div>
-                <div class="Work__contentBox">
-                    <img src="img/Frame 2.png" alt="">
-                    <p>テキスト テキスト テキスト</p>
-                </div>
-                <div class="Work__contentBox">
-                    <img src="img/Frame 3.png" alt="">
-                    <p>テキスト テキスト テキスト</p>
-                </div>
-                <div class="Work__contentBox">
-                    <img src="img/Frame 4.png" alt="">
-                    <p>テキスト テキスト テキスト</p>
-                </div>
-                <div class="Work__contentBox">
-                    <img src="img/Frame 5.png" alt="">
-                    <p>テキスト テキスト テキスト</p>
-                </div>
-                <div class="Work__contentBox">
-                    <img src="img/Frame 6.png" alt="">
-                    <p>テキスト テキスト テキスト</p>
-                </div>
-            </section>
-            <br><br>
-
-<!-- スムーズスクロール -->
-<a href="#top">top</a>
-<a href="#about">about</a>
-<a href="#skill">skill</a>
-<a href="#work">work</a>
-<a href="#contact">contact</a>
-
-<div class="Scroll__content">
-    <!-- <div id="top">top</div>
+        <div class="Scroll__content">
+            <!-- <div id="top">top</div>
     <div id="about"><h2>about</h2></div>
     <div id="skill"><h2>skill</h2></div>
     <div id="work"><h2>work</h2></div>
     <div id="contact"><h2>contact</h2><div> -->
-</div>
-
-<!-- スライダー -->
-<br><br>
-<div id="slider">
-    <figure>
-    <img src="img/flower-s.jpeg" alt="">
-    <img src="img/flower-w.jpeg" alt="">
-    <img src="img/flower-y.jpeg" alt="">
-    </figure>
-    </div>
-
-<br><br>
-<!-- ドロワーメニュー -->
-<input id="drawer-checkbox" type="checkbox">
-<label id="drawer-icon" for="drawer-checkbox"><span></span></label>
-<label id="drawer-close" for="drawer-checkbox"></label>
-<div id="drawer-content">ドロワーメニュー！</div>
-
-
-<!-- トップにもどる -->
-<br><br>
-<div id="Page__top"><a href="#"></a></div>
-
-<!-- モーダル -->
-<br><br><br>
-<a href="#modal-01"><img src="img/work1.png"></a>
-    <div class="Modal__wrapper" id="modal-01">
-        <a href="#!" class="Modal__overlay"></a>
-        <div class="Modal__window">
-            <div class="Modal__content">
-                <img src="img/cafe.png" width="100%">
-            </div>
-            <a href="#!" class="Modal__close">×</a>
-        </div>
-    </div>
-
-    <section class="Work">
-        <div id="work"><h2>work</h2></div>
-
-        <div class="Work__content">
-            <div class="Work__contentBox">
-                <div class="Work__contentImage">
-                    <a href="#modal-01"><img src="img/work1.png"></a>
-                </div>
-                <p class="Work__contentText">テキスト テキスト テキスト</p>
-            </div>
-
-            <div class="Work__contentBox">
-                <div class="Work__contentImage">
-                    <a href="#modal-02"><img src="img/work2.png"></a>
-                </div>
-                <p class="Work__contentText">テキスト テキスト テキスト</p>
-            </div>
-            <div class="Work__contentBox">
-                <div class="Work__contentImage">
-                    <a href="#modal-03"><img src="img/work3.png"></a>
-                </div>
-                <p class="Work__contentText">テキスト テキスト テキスト</p>
-            </div>
-            <div class="Work__contentBox">
-                <div class="Work__contentImage">
-                    <a href="#"><img src="img/Frame 4.png" alt=""></a>
-                </div>
-                <p class="Work__contentText">テキスト テキスト テキスト</p>
-            </div>
-            <div class="Work__contentBox">
-                <div class="Work__contentImage">
-                    <a href="#"><img src="img/Frame 5.png" alt=""></a>
-                </div>
-                <p class="Work__contentText">テキスト テキスト テキスト</p>
-            </div>
-            <div class="Work__contentBox">
-                <div class="Work__contentImage">
-                    <a href="#"><img src="img/Frame 6.png" alt=""></a>
-                </div>
-                <p class="Work__contentText">テキスト テキスト テキスト</p>
-            </div>
         </div>
 
-<!-- モーダルで表示される部分 -->
+        <!-- スライダー -->
+        <br><br>
+        <div id="slider">
+            <figure>
+                <img src="img/flower-s.jpeg" alt="">
+                <img src="img/flower-w.jpeg" alt="">
+                <img src="img/flower-y.jpeg" alt="">
+            </figure>
+        </div>
+
+        <br><br>
+        <!-- ドロワーメニュー -->
+        <input id="drawer-checkbox" type="checkbox">
+        <label id="drawer-icon" for="drawer-checkbox"><span></span></label>
+        <label id="drawer-close" for="drawer-checkbox"></label>
+        <div id="drawer-content">ドロワーメニュー！</div>
+
+
+        <!-- トップにもどる -->
+        <br><br>
+        <div id="Page__top"><a href="#"></a></div>
+
+        <!-- モーダル -->
+        <br><br><br>
         <a href="#modal-01"><img src="img/work1.png"></a>
         <div class="Modal__wrapper" id="modal-01">
             <a href="#!" class="Modal__overlay"></a>
@@ -546,69 +540,102 @@
             </div>
         </div>
 
-        <div class="Modal__wrapper" id="modal-02">
-            <a href="#!" class="Modal__overlay"></a>
-            <div class="Modal__window">
-                <div class="Modal__content">
-                    <img src="img/arrows.png" width="100%">
+        <section class="Work">
+            <div id="work">
+                <h2>work</h2>
+            </div>
+
+            <div class="Work__content">
+                <div class="Work__contentBox">
+                    <div class="Work__contentImage">
+                        <a href="#modal-01"><img src="img/work1.png"></a>
+                    </div>
+                    <p class="Work__contentText">テキスト テキスト テキスト</p>
                 </div>
-                <a href="#!" class="Modal__close">×</a>
-            </div>
-        </div>
 
-        <div class="Modal__wrapper" id="modal-03">
-            <a href="#!" class="Modal__overlay"></a>
-            <div class="Modal__window">
-                <div class="Modal__content">
-                    <img src="img/sobolon.png" width="100%">
+                <div class="Work__contentBox">
+                    <div class="Work__contentImage">
+                        <a href="#modal-02"><img src="img/work2.png"></a>
+                    </div>
+                    <p class="Work__contentText">テキスト テキスト テキスト</p>
                 </div>
-                <a href="#!" class="Modal__close">×</a>
+                <div class="Work__contentBox">
+                    <div class="Work__contentImage">
+                        <a href="#modal-03"><img src="img/work3.png"></a>
+                    </div>
+                    <p class="Work__contentText">テキスト テキスト テキスト</p>
+                </div>
+                <div class="Work__contentBox">
+                    <div class="Work__contentImage">
+                        <a href="#"><img src="img/Frame 4.png" alt=""></a>
+                    </div>
+                    <p class="Work__contentText">テキスト テキスト テキスト</p>
+                </div>
+                <div class="Work__contentBox">
+                    <div class="Work__contentImage">
+                        <a href="#"><img src="img/Frame 5.png" alt=""></a>
+                    </div>
+                    <p class="Work__contentText">テキスト テキスト テキスト</p>
+                </div>
+                <div class="Work__contentBox">
+                    <div class="Work__contentImage">
+                        <a href="#"><img src="img/Frame 6.png" alt=""></a>
+                    </div>
+                    <p class="Work__contentText">テキスト テキスト テキスト</p>
+                </div>
             </div>
-        </div>
-    </section>
 
-<!-- ハンバーガーメニュー -->
-    <div class="Header__menu">
-        <div id="Nav__drawer">
-            <input id="Nav__input" type="checkbox" class="Nav__unshown">
-            <label id="Nav__open" for="Nav__input"><span></span></label>
-            <label class="Nav__unshown" id="Nav__close" for="Nav__input"></label>
-            <div id="Nav__content">
-              <ul class="Nav__contentList">
-                <li class="HeaderNav__listItem"><a href="#top">top</a></li>
-                <li class="HeaderNav__listItem"><a href="#about">about</a></li>
-                <li class="HeaderNav__listItem"><a href="#skill">skill</a></li>
-                <li class="HeaderNav__listItem"><a href="#work">work</a></li>
-                <li class="HeaderNav__listItem"><a href="#contact">contact</a></li>
-              </ul>
+            <!-- モーダルで表示される部分 -->
+            <a href="#modal-01"><img src="img/work1.png"></a>
+            <div class="Modal__wrapper" id="modal-01">
+                <a href="#!" class="Modal__overlay"></a>
+                <div class="Modal__window">
+                    <div class="Modal__content">
+                        <img src="img/cafe.png" width="100%">
+                    </div>
+                    <a href="#!" class="Modal__close">×</a>
+                </div>
             </div>
-        </div>
-        <br><br>
-</main>
 
+            <div class="Modal__wrapper" id="modal-02">
+                <a href="#!" class="Modal__overlay"></a>
+                <div class="Modal__window">
+                    <div class="Modal__content">
+                        <img src="img/arrows.png" width="100%">
+                    </div>
+                    <a href="#!" class="Modal__close">×</a>
+                </div>
+            </div>
 
+            <div class="Modal__wrapper" id="modal-03">
+                <a href="#!" class="Modal__overlay"></a>
+                <div class="Modal__window">
+                    <div class="Modal__content">
+                        <img src="img/sobolon.png" width="100%">
+                    </div>
+                    <a href="#!" class="Modal__close">×</a>
+                </div>
+            </div>
+        </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <!-- ハンバーガーメニュー -->
+        <div class="Header__menu">
+            <div id="Nav__drawer">
+                <input id="Nav__input" type="checkbox" class="Nav__unshown">
+                <label id="Nav__open" for="Nav__input"><span></span></label>
+                <label class="Nav__unshown" id="Nav__close" for="Nav__input"></label>
+                <div id="Nav__content">
+                    <ul class="Nav__contentList">
+                        <li class="HeaderNav__listItem"><a href="#top">top</a></li>
+                        <li class="HeaderNav__listItem"><a href="#about">about</a></li>
+                        <li class="HeaderNav__listItem"><a href="#skill">skill</a></li>
+                        <li class="HeaderNav__listItem"><a href="#work">work</a></li>
+                        <li class="HeaderNav__listItem"><a href="#contact">contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <br><br>
+    </main>
 </body>
 
 </html>
