@@ -3,11 +3,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 960px;
+    /* width: 960px; */
     margin: 0 auto;
 }
 .Work .Work__contentBox{
-    width: calc(100% / 3);
+    /* width: calc(100% / 3); */
     margin-bottom: 30px;
 }
 .Work .Work__contentImage{

@@ -18,9 +18,13 @@
 
 @media screen and (max-width: 559px){
     .Top .Top__tittle{
-        
+        top: 25%;
+        left: 5%;
+        font-size: 1.4rem;
     }
     .Top .Top__img{
-        margin-left: 0;
+        width: 80%;
+        height: 300px;
+        margin-left: 20%;
     }
 }
