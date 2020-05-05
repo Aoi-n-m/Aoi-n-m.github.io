@@ -9,7 +9,7 @@
 .About .About__profile{
     display: flex;
     /* width: 960px; */
-    margin: 0 auto;
+    margin: 0 10%;
 }
 .About .About__thumbnail{
     width: 50%;
@@ -25,13 +25,15 @@
 @media screen and (max-width: 559px){
     .About .About__profile{
         flex-direction: column;
+        align-items: center;
     }
     .About .About__thumbnail{
-        width: 45%;
+        /* width: 45%; */
+        margin: 0;
     }
     .About .About__introduction{
         margin-top: 20px;
         font-size: 14px;
-        width: 45%;
+        /* width: 45%; */
     }
 }
