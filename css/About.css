@@ -28,12 +28,10 @@
         align-items: center;
     }
     .About .About__thumbnail{
-        /* width: 45%; */
         margin: 0;
     }
     .About .About__introduction{
         margin-top: 20px;
         font-size: 14px;
-        /* width: 45%; */
     }
 }
