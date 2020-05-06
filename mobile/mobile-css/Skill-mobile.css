@@ -1,0 +1,17 @@
+@charset "UTF8";
+
+.Skill {
+    width: 60%;
+}
+.Skill .Skill__list{
+    padding-left: 0;
+    text-align: center;
+}
+
+.Skill .Skill__listTitle{
+    font-size: 16px;
+    margin: 0;
+}
+.Skill .Skill__listIntroduction{
+    margin: 0;
+}
