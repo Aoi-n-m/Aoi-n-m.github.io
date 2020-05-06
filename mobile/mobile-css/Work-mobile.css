@@ -1,2 +1,16 @@
 @charset "UTF8";
 
+.Work {
+    width: 60%;
+}
+.Work__content{
+    text-align: center;
+}
+.Work .Work__contentImage:hover{
+    transform:scale(1.1);
+    transition-duration: 0.3s;
+}
+.Work .Work__contentTitle{
+    margin-top: 0;
+    margin-bottom: 10%;
+}
