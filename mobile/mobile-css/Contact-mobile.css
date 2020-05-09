@@ -1,2 +1,16 @@
 @charset "UTF8";
 
+.Form__contents{
+    margin: 0 20%;
+    flex-direction: column;
+    align-items: center;
+}
+.Form__contents .Form__content{
+    margin-bottom: 15px;
+}
+.Form__contents .Form__contentTitle{
+    background: #e1e1e2;
+    border-radius: 5px;
+    width: 135px;
+    margin: 0 auto;
+}
