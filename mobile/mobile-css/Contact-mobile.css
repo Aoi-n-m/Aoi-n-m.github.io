@@ -1,9 +1,9 @@
 @charset "UTF8";
 
 .Form__contents{
-    margin: 0 20%;
-    flex-direction: column;
-    align-items: center;
+    margin: 30%;
+    text-align: center;
+    /* display: block; */
 }
 .Form__contents .Form__content{
     margin-bottom: 15px;
@@ -11,6 +11,32 @@
 .Form__contents .Form__contentTitle{
     background: #e1e1e2;
     border-radius: 5px;
-    width: 135px;
-    margin: 0 auto;
+    padding: 3px 20px;
+    width:300px;
+}
+.Form__contents .Form__inputItem{
+    border: solid 1px #aaa;
+    border-radius:5px;
+    padding:10px;
+    font-size: 15px;
+    width:100%;
+    margin-top: 5px;
+}
+.Form__contents .Form__comment{
+    border: solid 1px #aaa;
+    border-radius:5px;
+    border-radius:5px;
+    padding: 10px;
+    height: 160px;
+    font-size: 15px;
+    width:100%;
+    margin-top: 5px;
+}
+.Form__btn .Form__submitBtn{
+    background: rgb(224, 211, 211);
+    font-size:16px;
+    border-radius: 8px;
+    padding: 3px 20px;
+    box-shadow:  2px 2px 3px;
+    margin-bottom: 100px;
 }
